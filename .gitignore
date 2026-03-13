@@ -1,0 +1,11 @@
+# ignore enviornments
+.env
+.venv
+.conda
+
+# ignore data
+CLIN/data
+
+# ignore the documentation scripts and folders
+GT/Graph_Theory_Pipeline_Documentation.docx
+GT/generate_documentation.py
