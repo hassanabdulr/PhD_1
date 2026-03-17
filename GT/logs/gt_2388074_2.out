@@ -1,0 +1,58 @@
+Processing: 4S356Parcels
+
+======================================================================
+GRAPH THEORY ANALYSIS PIPELINE
+======================================================================
+Output directory: /projects/aabdulrasul/TAY/GT/test
+Parcellations: ['4S356Parcels']
+Compute small-worldness: True
+N random networks: 100
+======================================================================
+
+Discovering XCP-D data...
+Using per-run files: True
+Found 1 subjects
+Available parcellations: ['4S1056Parcels', '4S156Parcels', '4S256Parcels', '4S356Parcels', '4S456Parcels', '4S556Parcels', '4S656Parcels', '4S756Parcels', '4S856Parcels', '4S956Parcels', 'Glasser', 'Gordon', 'HCP', 'MIDB', 'MyersLabonte', 'Tian']
+Will process: ['4S356Parcels']
+Edge handling: positive_only
+Thresholds: [0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4]
+Primary threshold: 0.15
+
+============================================================
+Processing: 4S356Parcels
+============================================================
+  Processing: sub-CU1CU10001/ses-02/run-01
+  Processing: sub-CU1CU10001/ses-02/run-02
+
+============================================================
+PROCESSING COMPLETE
+============================================================
+Unique subjects: 1
+Unique sessions: 1
+Total runs processed: 2
+Results saved to: /projects/aabdulrasul/TAY/GT/test
+Session averages computed: 1 sessions
+
+======================================================================
+GRAPH THEORY ANALYSIS SUMMARY
+======================================================================
+Edge handling: positive_only
+Primary threshold: 0.15
+Thresholds tested: [0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4]
+
+Total: 1 subjects, 2 runs
+
+4S356Parcels (1 subjects, 2 runs):
+--------------------------------------------------
+  Global Efficiency (weighted)       : 0.2170 ± 0.0029
+  Clustering (weighted)              : 0.1862 ± 0.0028
+  Modularity (weighted)              : 0.4682 ± 0.0126
+  Small-worldness (σ)                : 2.2674 ± 0.1270
+  Characteristic Path Length (weighted): 2.7781 ± 0.0619
+  Transitivity (weighted)            : 0.2024 ± 0.0061
+  Mean Strength                      : 20.8338 ± 0.2119
+  Mean Degree (binary)               : 53.2528 ± 0.0000
+
+======================================================================
+
+All results saved to: /projects/aabdulrasul/TAY/GT/test

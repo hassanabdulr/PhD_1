@@ -1,0 +1,23 @@
+Processing: 4S1056Parcels
+
+======================================================================
+GRAPH THEORY ANALYSIS PIPELINE
+======================================================================
+Output directory: /projects/aabdulrasul/TAY/GT/test
+Parcellations: ['4S1056Parcels']
+Compute small-worldness: True
+N random networks: 100
+======================================================================
+
+Discovering XCP-D data...
+Using per-run files: True
+Found 1 subjects
+Available parcellations: ['4S1056Parcels', '4S156Parcels', '4S256Parcels', '4S356Parcels', '4S456Parcels', '4S556Parcels', '4S656Parcels', '4S756Parcels', '4S856Parcels', '4S956Parcels', 'Glasser', 'Gordon', 'HCP', 'MIDB', 'MyersLabonte', 'Tian']
+Will process: ['4S1056Parcels']
+Edge handling: positive_only
+Thresholds: [0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4]
+Primary threshold: 0.15
+
+============================================================
+Processing: 4S1056Parcels
+============================================================

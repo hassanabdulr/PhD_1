@@ -1,0 +1,9 @@
+Subjects:   0%|          | 0/1 [00:00<?, ?it/s]/projects/aabdulrasul/TAY/GT/code/gt_env/lib/python3.12/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/projects/aabdulrasul/TAY/GT/code/gt_env/lib/python3.12/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+/projects/aabdulrasul/TAY/GT/code/gt_env/lib/python3.12/site-packages/bct/algorithms/centrality.py:786: RuntimeWarning: invalid value encountered in divide
+  P = np.ones((n,)) - Kc2 / np.square(Ko)
+/projects/aabdulrasul/TAY/GT/code/gt_env/lib/python3.12/site-packages/bct/algorithms/core.py:515: RuntimeWarning: invalid value encountered in scalar divide
+  R[k] = Ek[k] / (Nk[k] * (Nk[k] - 1))
+Subjects: 100%|██████████| 1/1 [9:43:23<00:00, 35003.21s/it]Subjects: 100%|██████████| 1/1 [9:43:23<00:00, 35003.22s/it]

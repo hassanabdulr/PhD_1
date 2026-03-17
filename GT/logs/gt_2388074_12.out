@@ -1,0 +1,36 @@
+Processing: HCP
+
+======================================================================
+GRAPH THEORY ANALYSIS PIPELINE
+======================================================================
+Output directory: /projects/aabdulrasul/TAY/GT/test
+Parcellations: ['HCP']
+Compute small-worldness: True
+N random networks: 100
+======================================================================
+
+Discovering XCP-D data...
+Using per-run files: True
+Found 1 subjects
+Available parcellations: ['4S1056Parcels', '4S156Parcels', '4S256Parcels', '4S356Parcels', '4S456Parcels', '4S556Parcels', '4S656Parcels', '4S756Parcels', '4S856Parcels', '4S956Parcels', 'Glasser', 'Gordon', 'HCP', 'MIDB', 'MyersLabonte', 'Tian']
+Will process: ['HCP']
+Edge handling: positive_only
+Thresholds: [0.05, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4]
+Primary threshold: 0.15
+
+============================================================
+Processing: HCP
+============================================================
+  Processing: sub-CU1CU10001/ses-02/run-01
+  Warning: Neither dimension matches expected 360 parcels for HCP
+  WARNING: Expected 360 parcels for HCP, got 19
+  File: /projects/aabdulrasul/TAY/GT/data/sub-CU1CU10001/ses-02/func/sub-CU1CU10001_ses-02_task-rest_run-01_space-fsLR_seg-HCP_den-91k_stat-mean_timeseries.ptseries.nii
+  Processing: sub-CU1CU10001/ses-02/run-02
+  Warning: Neither dimension matches expected 360 parcels for HCP
+  WARNING: Expected 360 parcels for HCP, got 19
+  File: /projects/aabdulrasul/TAY/GT/data/sub-CU1CU10001/ses-02/func/sub-CU1CU10001_ses-02_task-rest_run-02_space-fsLR_seg-HCP_den-91k_stat-mean_timeseries.ptseries.nii
+No sweep data. Run pipeline first.
+No data. Run pipeline first.
+No results. Run pipeline first.
+
+All results saved to: /projects/aabdulrasul/TAY/GT/test
