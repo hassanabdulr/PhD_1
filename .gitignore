@@ -2,10 +2,16 @@
 .env
 .venv
 .conda
+/projects/aabdulrasul/TAY/PhD_1/GT/code/gt_env
+/projects/aabdulrasul/TAY/PhD_1/GT/code/__pycache__
 
 # ignore data
 CLIN/data
 
+# ignore GT outputs
+GT/output
+
 # ignore the documentation scripts and folders
 GT/Graph_Theory_Pipeline_Documentation.docx
 GT/generate_documentation.py
+
