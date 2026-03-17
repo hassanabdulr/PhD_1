@@ -2,8 +2,8 @@
 .env
 .venv
 .conda
-/projects/aabdulrasul/TAY/PhD_1/GT/code/gt_env
-/projects/aabdulrasul/TAY/PhD_1/GT/code/__pycache__
+GT/code/gt_env/
+GT/code/__pycache__/
 
 # ignore data
 CLIN/data
